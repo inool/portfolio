@@ -1,0 +1,233 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .main1 h1{
+            margin: 0px;
+             
+
+        }
+        .main1{
+            width: 100vw;
+            height:10vh;
+            background-color:  rgb(232, 219, 195);
+            position: relative;
+        }
+        .main11{
+            position: absolute;
+            top:50%;
+            left:50%;
+            color:white;
+            font-size: xx-large; 
+            transform: translate(-50%,-50%);
+        }
+        .main2{
+            width: 100vw;
+            height:80vh;
+            background-color:white
+        }
+        #img1{
+            width: 100%;
+            height: 100%;
+        }
+        .main3{
+            width: 100vw;
+            height:10vh;
+            background-color:  rgb(156, 33, 180);
+        }
+    
+    
+    </style>
+</head>
+<body>
+   <div class="main1">
+    <div class="main11">
+    <h1>INOOL</h1>
+    </div>
+   </div> 
+   <div class="main2">
+    <img src="Brown Beige Abstract Blank Notes A4 Document….jpeg" alt=" " id="img1">
+   </div> 
+   <div class="main3"></div> 
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Landscape</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #e53935, pink); /* Your red gradient */
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Main Container - Split Landscape */
+    .container {
+      display: flex;
+      flex-direction: row;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 90%;
+      max-width: 1200px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Left Panel (Photo Side) */
+    .left {
+      flex: 1;
+      background: rgba(0, 0, 0, 0.6); /* dark overlay */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .left img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #ff9800;
+      margin-bottom: 20px;
+    }
+
+    .left h1 {
+      margin: 10px 0;
+      font-size: 2rem;
+    }
+
+    .left h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      color: #ddd;
+    }
+
+    /* Right Panel (Content Side) */
+    .right {
+      flex: 2;
+      background: rgba(255, 255, 255, 0.15); /* glass effect */
+      backdrop-filter: blur(15px);
+      padding: 40px;
+      color: #fff;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      border-left: 4px solid #ff9800;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .section p, .section li {
+      line-height: 1.6;
+      color: #f1f1f1;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔ ";
+      color: #ff9800;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: #ff9800;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e68900;
+    }
+
+    /* Certificates Grid */
+    .certificates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .certificates-grid img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Left Side -->
+    <div class="left">
+      <img src="IMG-20250716-WA0011(1).jpg" alt="My Photo"> <!-- Your photo file -->
+      <h1>Inool</h1>
+      <h2>Web Developer | Designer</h2>
+    </div>
+
+    <!-- Right Side -->
+    <div class="right">
+      <div class="section">
+        <h3>About Me</h3>
+        <p>Hello! I'm Inool, a passionate web developer specializing in creating modern, responsive, and user-friendly websites. I enjoy building creative digital experiences.</p>
+      </div>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python & Django</li>
+          <li>React & Node.js</li>
+          <li>UI/UX Design</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Projects</h3>
+        <p>💻 <strong>Vetri Electronics E-commerce Website</strong> – A full-stack online electronics store built with Django.</p>
+        <p>💎 <strong>Jewellery Website</strong> – Modern jewelry showcase with interactive UI.</p>
+        <p>📂 More projects on my <a href="https://github.com/inool" class="btn">GitHub</a></p>
+      </div>
+
+      <!-- Certificates Section -->
+      <div class="section">
+        <h3>Certificates</h3>
+        <div class="certificates-grid">
+          </div>
+        <p>📄 <a href="INOOLJARIYA A _certificate.pdf" class="btn" target="_blank">View All Certificates (PDF)</a></p>
+      </div>
+
+      <div class="section">
+        <h3>Contact</h3>
+        <p>📧 Email: inooljariya7@gmail.com</p>
+        <p>🌐 LinkedIn: <a href="#" class="btn">Visit Profile</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
